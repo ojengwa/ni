@@ -19,13 +19,12 @@ dependency_links = [x.strip().replace('git+', '')
                     for x in all_reqs if 'git+' not in x]
 
 setup(
-    name='microservice',
+    name='ni',
     version=__version__,
     description='A microservice-based web framework for Python.',
     long_description=long_description,
-    url='https://github.com/ojengwa/microservice',
-    download_url='https://github.com/ojengwa/microservice/tarball/' +
-        __version__,
+    url='https://github.com/ojengwa/ni',
+    download_url='https://github.com/ojengwa/ni/tarball/' + __version__,
     license='BSD',
     classifiers=[
         'Development Status :: 3 - Alpha',
